@@ -35,7 +35,7 @@ void PersonList::addPerson(char* child_name, char* father_name, char* mother_nam
     }
    
     if(father == 0){
-      // father_name is not in the theList so create a new person
+      // father_name is not in the theList so create a new person 
       father = new Person(father_name, 0, 0);
       insertIntoList(father);
     }

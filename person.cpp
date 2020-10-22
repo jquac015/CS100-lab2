@@ -56,7 +56,7 @@ void Person::printLineage(char dir, int level){
     delete [] temp;
 }
 
-/* helper function to compute the lineage
+/* helper function to compute the lineage 
 * if level = 0 then returns the empty string
 * if level >= 1 then returns ("great ")^(level - 1) + "grand "
 */
